@@ -23,7 +23,6 @@ std::string getErrorMessage(ErrorCode errorCode) {
 }
 
 bool doPasswordsMatch(std::string pass1, std::string pass2) {
-    
     if (pass1.empty() && pass2.empty()) {
         return true;
     }
